@@ -23,6 +23,7 @@ public class FileCopyDemo {
         if(!f2.isFile())
         {
             System.out.println("It is not a file");
+            
         }
 
         FileReader fr = new FileReader(f1);
